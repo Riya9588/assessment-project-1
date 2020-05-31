@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- LINK TO BOOTSTRAP - 3 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:lightgrey;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+  <!-- HTML CONTAINER | HEADER CONTAINER -->
+  <header id="main-header" class="p-3 mb-2 bg-dark text-white">
+    <div class="container1">
+      <img src="../images/Bill-becomes-a-law-dynamic.jpg"  width="100" height="100">
+      <h2 id="header-title">@apkaKANOON</h2>
+      <h6>injustice anywhere is threat to justice everywhere </h6>
+
+    </div>
+  </header>
+
+<center><h2>COMMENT SECTION</h2></center>
+<div class="container">
+  <form action="../html/reply.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" value="Akhil Sankhla" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="title">Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="title" name="title" value="Property Dispute">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="state">State</label>
+      </div>
+      <div class="col-75">
+        <select id="state" name="state">
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Assam">Assam</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Query</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" style="height:200px">Father gives son 50%of SELF acquired property thru gift deed. Father died intestate. Fathers share goes to son sister and mother. Son and sister execute relinquish deed giving up all rights to property in favour of mother. The question is--did the son give up his 50%share and also his 16.5% share of father or not to mother?</textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Reply">
+    </div>
+  </form>
+</div><br><br><br>
+
+<div class="container">
+  <form action="../html/reply.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" value="Aditi Bohra" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="title">Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="title" name="title" value="Education Dispute">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="state">State</label>
+      </div>
+      <div class="col-75">
+        <select id="state" name="state">
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Assam">Assam</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Query</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" value="" style="height:200px">Do i need to register in GST if my net worth is below 20 lakh, but i am receiving payment from other nation for my work as individual .. so is it necessary to register on GST if my net worth is less than 20 lakh, but my most income is from other nations for the work i do for them as an individual on freelancer.</textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Reply">
+    </div>
+  </form>
+</div><br><br><br>
+
+
+<div class="container">
+  <form action="../html/reply.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" value="Manav Jain" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="title">Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="title" name="title" value="Commercial Dispute">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="state">State</label>
+      </div>
+      <div class="col-75">
+        <select id="state" name="state">
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Assam">Assam</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Query</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" style="height:200px">Hi, I had hired a freelancer to help me build an app for my startup. I found him through Freelancer.in. He signed an NDA as well. However, the contract term has passed and he hasn't delivered anything. I have tried contacting him via calls, messages, and emails but he hasn't replied. I had paid him 15000 in advance through google pay. I am based in Bangalore and he is based in Indore. Is there any legal remedy through which I can get my money back?</textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Reply">
+    </div>
+  </form>
+</div><br><br><br>
+
+
+<div class="container">
+  <form action="../html/reply.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" value="Mansi Purohit" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="title">Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="title" name="title" value="Matrimonial Dispute">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="state">State</label>
+      </div>
+      <div class="col-75">
+        <select id="state" name="state">
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Assam">Assam</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Query</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject"  style="height:200px">It is natural to feel exhausted due to such unending conflicts, and also feel hopeless about resolving these conflicts. It is at this stage that couples feel the need to go for expert marriage guidance, or as a worst-case scenario, seek some legal remedy.</textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Reply">
+    </div>
+  </form>
+</div><br><br><br>
+
+
+<div class="container">
+  <form action="../html/reply.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" value="Aashish Vyas" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="title">Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="title" name="title" value="Commercial Dispute">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="state">State</label>
+      </div>
+      <div class="col-75">
+        <select id="state" name="state">
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Assam">Assam</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Query</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject"  style="height:200px">Do i need to register in GST if my net worth is below 20 lakh, but i am receiving payment from other nation for my work as individual .. so is it necessary to register on GST if my net worth is less than 20 lakh, but my most income is from other nations for the work i do for them as an individual on freelancer.</textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Reply">
+    </div>
+  </form>
+</div><br><br><br>
+
+<div class="container">
+  <form action="../html/reply.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" value="Dheeraj Solanki" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="title">Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="title" name="title" value="Property Dispute">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="state">State</label>
+      </div>
+      <div class="col-75">
+        <select id="state" name="state">
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Assam">Assam</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Query</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" style="height:200px">Over a period of time, it has been found that NRIs, across the globe, are dealing with many kinds of property disputes like illegal possession, landlord/tenant disputes, illegal sale of property and much more. They deal with issues relating to ownership or some other relevant concerns like status of the title, registry information etc.What can they do to resolve this problem?</textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Reply">
+    </div>
+  </form>
+</div><br><br><br>
+
+
+
+<form action="../index.html">
+<div class="column">
+<input type="submit" value="back">
+</div>
+</form>
+
+
+</body>
+</html>

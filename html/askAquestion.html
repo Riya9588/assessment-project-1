@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- LINK TO BOOTSTRAP - 3 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+  <!-- HTML CONTAINER | HEADER CONTAINER -->
+  <header id="main-header" class="p-3 mb-2 bg-dark text-white">
+    <div class="container">
+      <img src="../images/Bill-becomes-a-law-dynamic.jpg"  width="100" height="100">
+      <h2 id="header-title">@apkaKANOON</h2>
+      <h6>injustice anywhere is threat to justice everywhere </h6>
+
+    </div>
+  </header>
+
+<center><h3>Ask A Question</h3></center>
+
+<div class="container1">
+  <form action="../index.html">
+    <label for="lname">Title</label>
+    <input type="text" id="lname" name="lawyername" placeholder="lawyer name..">
+
+   
+
+    <label for="address">Area of law</label>
+    <select id="address" name="address">
+       <option value="india">Civil</option>
+      <option value="canada">Criminal</option>
+      <option value="usa">Family law</option>
+      <option value="usa">Appeals</option>
+      <option value="usa">Bail</option>
+    </select>
+
+    <label for="subject">Your matter</label>
+    <textarea id="subject" name="subject" placeholder="Write your matter.." style="height:200px"></textarea>
+
+    <label for="lname">City</label>
+    <input type="text" id="lname" name="City" placeholder="City..">
+    <input type="submit" value="submit">
+  </form>
+</div>
+
+</body>
+</html>
